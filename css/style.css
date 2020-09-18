@@ -1,0 +1,51 @@
+
+li{list-style: none; padding:0;}
+img{
+    max-width: 100%;
+}
+.barra{
+    background: #dadada;
+}
+.relleno{
+    background: #f5f5f5;
+    padding: 20px;
+}
+.titPrin{color:#000;}
+/*todo lo que incluya noche, se cambiara por estar propiedades*/
+.noche{
+    background: black;
+}
+.noche .titPrin{
+    color: #fff;
+}
+.noche .relleno{
+    background: #666;
+    color: #fff;
+}
+/*pico*/
+.pico{
+    width: 30px;
+    height: 30px;
+    background: #dadada;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 30px;
+    left: 52px;
+    z-index: -20;
+}
+.articulo{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.articulo ul {
+    padding: 0;
+    border-top: 1px solid #cfcbcf;
+}
+.articulo ul li{
+    padding-top: 15px;
+    display: inline-block;
+}
+.articulo ul li:last-child{
+    margin-right: 0;
+    float: right;
+}
